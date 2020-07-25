@@ -16,7 +16,7 @@ function sessionStoragelisto() {
   const user = getSessionStorage()
 
   if (user === null) {
-    location.href = 'JAgamez21/PAGWEBBOOSTRAP/html/login.html'
+    location.href = '/PAGWEBBOOSTRAP/html/login.html'
   } else {
     const userTipo = document.getElementById('user-tipo')
     userTipo.innerHTML=`<p>${user.user} - ${user.tipo}</p>`
