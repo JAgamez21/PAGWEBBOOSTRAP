@@ -40,7 +40,7 @@ function formlogin(e) {
   }
 
   if (login) {
-    location.href = 'JAgamez21/PAGWEBBOOSTRAP/index.html'
+    location.href = '/PAGWEBBOOSTRAP/index.html'
   } else {
     alert('User/password incorrect')
   }
